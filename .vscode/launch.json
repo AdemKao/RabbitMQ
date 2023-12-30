@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "C#: Sender",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/01.RabbitMQ_Demo/Sender/Sender.csproj",
+            "launchConfigurationId": "TargetFramework=;Sender"
+        },
+        {
+            "name": "C#: Consumer1",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/01.RabbitMQ_Demo/Consumer1/Consumer1.csproj",
+            "launchConfigurationId": "TargetFramework=;Consumer1"
+        },
+        {
+            "name": "C#: Consumer2",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/01.RabbitMQ_Demo/Consumer2/Consumer2.csproj",
+            "launchConfigurationId": "TargetFramework=;Consumer2"
+        },
+    ]
+}
